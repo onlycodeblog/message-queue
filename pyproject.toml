@@ -1,0 +1,16 @@
+[project]
+name = "message-queue"
+version = "0.1.0"
+description = "A simple in-memory message queue with consumer dependencies"
+authors = [
+  { name="onlycodeblog" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "watchdog>=3.0.0"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

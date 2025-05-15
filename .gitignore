@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+__pypackages__/
+
+# Logs and runtime files
+logs/
+error_log.txt
+*.log
+*.csv
+
+# Environment
+.env
+.venv/
+ENV/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.mypy_cache/
+.pytest_cache/
+
+# Input file for testing
+input.txt
